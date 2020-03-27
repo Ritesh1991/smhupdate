@@ -2,8 +2,8 @@ from ota_update.main.ota_updater import OTAUpdater
 
 
 def download_and_install_update_if_available():
-	o = OTAUpdater('url-to-your-github-project')
-	o.download_and_install_update_if_available('wifi-ssid', 'wifi-password')
+	o = OTAUpdater('https://github.com/Ritesh1991/smhupdate')
+	o.download_and_install_update_if_available('Ritesh', '9824168814')
 
 
 def start():
@@ -20,5 +20,5 @@ def boot():
 	start()
 
 
- boot()
+boot()
 
